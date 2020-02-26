@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Style the main background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Customize the header bar */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +17,19 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/* Displays the header content all in the same line, and sets the font for the company name. */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Colors the "seo" in Horiseon a slightly darker shade of grey */
 .seo {
     color: #d9dcd6;
 }
 
-.header {
+/* Navigation section with links to sections down the page */
+.headerNav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,20 +38,24 @@ header h1 {
     list-style-type: none;
 }
 
+/* Displays the nav list in a horizontal line */
 .headerLinks {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Adjusts color of links to white and removes any link decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets consistent paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* Main header image that covers the top of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -54,6 +63,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    alt: "Digital Marketing Meeting";
 }
 
 .float-left {
