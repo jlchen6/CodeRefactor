@@ -50,6 +50,7 @@ a {
     text-decoration: none;
 }
 
+/* Main header image that covers the top of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,12 +61,14 @@ a {
     alt: "Digital Marketing Meeting";
 }
 
+/* Box for the content divider, scooted to the side to leave space for the benefits sidebar */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Defines consistent formatting for all content sections */
 .contentSection {
     margin-bottom: 20px;
     padding: 50px;
@@ -75,26 +78,27 @@ a {
     color: #ffffff;
 }
 
+/* Formats the headers for each content section */
 .contentSection h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Formats the height for all content images */
 .content img {
     max-height: 200px;
 }
 
+/* Moves the content image to the left of the text, leaving a bit of space between them */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Moves the content image to the right of the text, leaving a bit of space between them */
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-h2 {
-    font-size: 20px;
 }
 
 /* Sets consistent paragraph font size */
@@ -102,8 +106,8 @@ p {
     font-size: 16px;
 }
 
-/* Main header image that covers the top of the page */
 
+/* Formats the box for the benefits sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -115,27 +119,36 @@ p {
     background-color: #2589bd;
 }
 
+/* Spaces out the benefits sections and changes text color to white */
 .benefit-section{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Formats the headings for the benefits sections */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Formats the images in each benefits section */
 .benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Formats the footer of the page */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+/* adjusts the font size of the footer heading */
+footer h2 {
+    font-size: 20px;
 }
 
 
